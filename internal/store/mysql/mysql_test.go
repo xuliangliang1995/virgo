@@ -22,14 +22,13 @@ func TestGetMySQLFactory(t *testing.T) {
 	}
 
 	userStore := storeFactory.Users()
-	userStore.Create(&model.User{
-		Id: 1,
-		Name: "xuliang",
-		Age: 27,
-		Gender: 1,
-		Email: "grasswort.com",
+	_ = userStore.Update(&model.User{
+		Id:       1,
+		Name:     "xuliang",
+		Age:      27,
+		Gender:   1,
+		Email:    "grasswort@qq.com",
 		CreateAt: time.Now(),
 		UpdateAt: time.Now(),
 	})
-
 }
