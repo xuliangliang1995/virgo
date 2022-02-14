@@ -1,0 +1,6 @@
+mysql:
+  host: localhost:3306
+  username: virgo
+  password: 123456
+  database: virgo
+  log-level: 3

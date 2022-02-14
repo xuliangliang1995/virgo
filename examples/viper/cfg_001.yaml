@@ -1,0 +1,10 @@
+application:
+  name: virgo
+mysql:
+  host: localhost
+  password: 123456
+  port: 3306
+  username: virgo_r
+users:
+  "1": Tom
+  "2": Jerry
